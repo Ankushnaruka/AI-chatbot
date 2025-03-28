@@ -1,0 +1,102 @@
+/* Chat container to hold the chatbox and input area */
+#chatContainer {
+    display: flex;
+    flex-direction: column; /* Stack heading, chatbox, and input container vertically */
+    width: 100%; /* Full width */
+    /*max-width: 600px; /* Optional: Set a max width for the chat container */
+    width: 80%;
+    margin: 0 auto; /* Center the chat container horizontally */
+    height: 80vh; /* Adjust height as needed */
+    border: 1px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #222; /* Dark background for the chat container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading styling */
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 10px 0; /* Add some spacing around the heading */
+    font-size: 24px; /* Adjust font size */
+}
+
+/* Chatbox styling */
+#chatbox {
+    flex: 1; /* Take up remaining space */
+    overflow-y: auto; /* Enable scrolling for messages */
+    padding: 10px;
+    background-color: #222; /* Solid dark background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Input container styling */
+#inputContainer {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    padding: 10px;
+    background-color: #333; /* Darker background for input area */
+    gap: 10px; /* Spacing between input and button */
+    width: 100%; /* Match the width of the chatbox */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Input field styling */
+#userInput {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Send button styling */
+#sendButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.user-message {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: #158b00;
+}
+
+.bot-message {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00408f;
+}
+
+#chatbox {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #2f2f2f;
+}

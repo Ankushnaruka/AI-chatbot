@@ -1,0 +1,19 @@
+{
+  "name": "project_3_chatbot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "genai": "^0.0.18",
+    "marked": "^15.0.7"
+  }
+}
