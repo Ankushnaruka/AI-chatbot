@@ -1,6 +1,3 @@
-Collecting workspace informationHere is a `README.md` file for your project:
-
-```markdown
 # AI Chatbot Project
 
 This is a simple AI chatbot application built using Node.js, Express, and Google Generative AI. The chatbot provides responses to user queries using the Gemini model.
@@ -86,6 +83,3 @@ This project is licensed under the ISC License.
 
 - Google Generative AI for providing the Gemini model.
 - The `marked` library for Markdown rendering.
-```
-
-Save this content as `README.md` in the root directory of your project.
